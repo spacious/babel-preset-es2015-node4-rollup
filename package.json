@@ -1,0 +1,25 @@
+{
+  "name": "babel-preset-es2015-node4-rollup",
+  "version": "1.0.0",
+  "description": "This is [babel-preset-es2015-node4](https://github.com/jbach/babel-preset-es2015-node4), minus [modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/), plus [external-helpers](http://babeljs.io/docs/plugins/external-helpers/). Use it with [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacious/babel-preset-es2015-node4-rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacious/babel-preset-es2015-node4-rollup/issues"
+  },
+  "homepage": "https://github.com/spacious/babel-preset-es2015-node4-rollup#readme",
+  "dependencies": {
+    "babel-plugin-external-helpers": "^6.5.0",
+    "babel-preset-es2015-node4": "^2.0.3",
+    "modify-babel-preset": "^1.2.0"
+  }
+}
